@@ -31,9 +31,9 @@ export default {
   name: 'WalletInfo',
 
   setup() {
-    const walletAddress = ref('Account 68 (Loading...)');
-    const walletBalance = ref('$100');
-    const pendingPayout = ref('$50');
+    const walletAddress = ref('Account');
+    const walletBalance = ref('0');
+    const pendingPayout = ref('0');
 
     const fetchWalletInfo = () => {
       // Ensure Telegram.WebApp is initialized and available
